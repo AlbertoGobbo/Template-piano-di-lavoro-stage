@@ -1,4 +1,4 @@
-﻿# Piano di lavoro Stage (Scritto dal tutor aziendale in data 14/05/2020)
+﻿# Piano di lavoro Stage
 
 # Prodotti attesi
 
@@ -40,23 +40,50 @@ Fase 3
 
 ## Ripartizione Ore
 
-|Durata in ore| Fase |
-|---------------|-------------------------|
-| 	90	|Fase 1	|
-|	100	|Fase 2 |
-|	130	|Fase 3 |
-|	320	|Totale ore|
+|Durata in ore| Fase | Attività|
+|---------------|------------|---------|
+| 	90	|Fase 1	||
+| 	30	|	|Studio e formazione su C# e Xamarin|
+| 	30	|	|Studio sulle soluzioni Cloud per la gestione delle Push Notification|
+| 	30	|	|Formazione sui tool aziendali utilizzati per la gestione dello sviluppo in team|
+|	100	|Fase 2 ||
+| 	30	|	|Approfondimento della piattaforma Cloud da integrare nella Mobile App per la gestione delle push notification|
+| 	30	|	|Formazione sul backend della soluzione software collegata alla Mobile App|
+| 	40	|	|Creazione di un progetto di test per la sperimentazione delle Push Notification tramite Xamarin|
+|	130	|Fase 3 ||
+| 	100	|	|Sviluppo di un POC con Xamarin per l'integrazione della Mobile App con la piattaforma Cloud di gestione delle Push Notification|
+| 	30	|	|Documentazione di progetto|
+|	320	|Totale ore||
 
 
 ## Obiettivi
 
+### Notazione
+
+Si farà riferimento ai requisiti secondo le seguenti notazioni:
+
+-   **O** per i requisiti obbligatori, vincolanti in quanto obiettivo primario richiesto dal committente
+-   **D** per i requisiti desiderabili, non vincolanti o strettamente necessari, ma dal riconoscibile valore aggiunto
+-   **F** per i requisiti facoltativi, rappresentanti valore aggiunto non strettamente competitivo
+
+Le sigle precedentemente indicate saranno seguite da una coppia sequenziale di numeri, identificativo del requisito.
+
+### Obiettivi fissati
+   
 Si prevede lo svolgimento dei seguenti obiettivi: 
 
- - Studio delle possibili piattaforme Cloud per la gestione delle Push
+#### Obbligatori
+ - O01: Studio delle possibili piattaforme Cloud per la gestione delle Push
    Notification;  
- - Selezione della piattaforma Cloud che ai requisiti
+ - O02: Selezione della piattaforma Cloud che ai requisiti
    della Mobile App e dal dominio applicativo specifico; 
- - Sperimentazione dell'integrazione con la Mobile App in Xamarin;
- - Sviluppo di un POC di gestione delle Push Notification all'interno della Mobile App
- 
- 
+ - O03: Sperimentazione dell'integrazione della piattaforma Cloud con la Mobile App in Xamarin;
+
+#### Desiderabili
+
+- D01: Sviluppo di un POC di gestione delle Push Notification all'interno della Mobile App
+- D02: Sviluppo di un POC per la pubblicazione delle Push Notification dal backend 
+
+#### Facoltativi
+- F01: Sviluppo di una strategia di gestione dei TAG per identificare l'utente destinatario della notifica
+
